@@ -4,7 +4,7 @@
 // @author        Lastorder-DC
 // @include       https://namu.wiki/*
 // @run-at        document-end
-// @version       0.1
+// @version       0.2
 // ==/UserScript==
 (function() {
 $('.r-hidden-body').each(function( index ) {

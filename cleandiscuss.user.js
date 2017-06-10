@@ -3,13 +3,11 @@
 // @description	  Hide hidden discuss thread in namuwiki.
 // @author        Lastorder-DC
 // @include       https://namu.wiki/*
-// @run-at        document-start
+// @run-at        document-end
 // @version       0.1
 // ==/UserScript==
 (function() {
-$( document ).ready(function() {
-	$('.r-hidden-body').each(function( index ) {
-		$(this).parent().parent().remove();
-	});
+$('.r-hidden-body').each(function( index ) {
+	$(this).parent().parent().remove();
 });
 })();

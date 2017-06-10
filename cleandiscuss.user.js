@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name          Namuwiki discuss image block
-// @description	  Block image of discuss page. Just temporary solution.
+// @name          Namuwiki hide hidden discuss thread
+// @description	  Hide hidden discuss thread in namuwiki.
 // @author        Lastorder-DC
 // @include       https://namu.wiki/*
 // @run-at        document-start
